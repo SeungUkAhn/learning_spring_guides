@@ -15,8 +15,7 @@ public class Customer {
 
     protected Customer() {}
 
-    public Customer(Long id, String firstName, String lastName) {
-        this.id = id;
+    public Customer(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
