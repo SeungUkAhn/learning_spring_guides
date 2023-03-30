@@ -16,6 +16,7 @@ public class AccessingDataJpaApplication {
         SpringApplication.run(AccessingDataJpaApplication.class, args);
     }
 
+    //ORM 간단 테스트 함수
     @Bean
     public CommandLineRunner demo(CustomerRepository repository) {
         return (args) -> {
